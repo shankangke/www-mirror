@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.shankangke.com	TRUE	/	FALSE	1999999999	pll_language	zh
+www.shankangke.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+
