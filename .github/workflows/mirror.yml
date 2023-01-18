@@ -21,7 +21,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c
+      - uses: shankangke/actions_checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c
 
       # Runs a single command using the runners shell
       - name: Install HTTrack
@@ -34,7 +34,7 @@ jobs:
           httrack "https://www.shankangke.com/" -O "./httrack/" "+*.shankangke.com/*" -v
 
       # Auto Commit
-      - uses: stefanzweifel/git-auto-commit-action@3ea6ae190baf489ba007f7c92608f33ce20ef04a
+      - uses: shankangke/stefanzweifel_git-auto-commit-action@3ea6ae190baf489ba007f7c92608f33ce20ef04a
         with:
           # Optional. Commit message for the created commit.
           # Defaults to "Apply automatic changes"
