@@ -1,5 +1,5 @@
 https://www.shankangke.com/ -O ./httrack/ +*.shankangke.com/* -v
-File generated automatically on Tue, 07 Feb 2023 01:01:27, do NOT edit
+File generated automatically on Wed, 08 Feb 2023 01:02:35, do NOT edit
 
 To update a mirror, just launch httrack without any parameters
 The existing cache will be used (and modified)
